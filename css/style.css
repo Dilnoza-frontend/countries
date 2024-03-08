@@ -4,10 +4,7 @@
   --element-bg: #fff;
   --text-color: #111517;
   --transition-duration: 0.4s;
-
 }
-
-
 
 /* Fonts */
 @font-face {
@@ -46,10 +43,7 @@
   font-display: swap;
 }
 
-
-
 /* Global  */
-
 html {
   height: 100%;
   scroll-behavior: smooth;
@@ -93,10 +87,7 @@ a {
   --text-color: #fff;
 }
 
-
-
 /* Container  */
-
 .container {
   width: 100%;
   max-width: 1320px;
