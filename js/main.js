@@ -7,7 +7,7 @@
 const elSiteThemeToggler = document.querySelector('.site-header-theme-toggler');
 
 if (elSiteThemeToggler) {
-  elSiteThemeToggler.addEventListener('submit', function (evt) {
+  elSiteThemeToggler.addEventListener('click', function (evt) {
     evt.preventDefault();
 
     localStorage.setItem('elSiteThemeToggler', 'dark-mode');
