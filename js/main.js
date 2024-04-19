@@ -13,7 +13,7 @@ if (elSiteThemeToggler) {
     localStorage.setItem('elSiteThemeToggler', 'dark-mode');
   });
 
-  if (localStorage.getItem('elSiteThemeToggler') === 'dark');
+  if (localStorage.getItem('elSiteThemeToggler') === 'dark-mode');
 
   elSiteThemeToggler.addEventListener('click', function (){
     document.body.classList.add('dark-mode');
