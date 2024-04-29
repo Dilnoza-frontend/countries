@@ -17,6 +17,6 @@ if (elSiteThemeToggler) {
 
   elSiteThemeToggler.addEventListener('click', function (){
     document.body.classList.add('dark-mode');
-
 });
+
 };
